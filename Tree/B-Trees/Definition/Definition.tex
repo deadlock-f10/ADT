@@ -1,0 +1,16 @@
+\documentclass{article}
+\newtheorem{Property}{Property}
+\title{B-tree}
+\begin{document}
+\maketitle
+A B-tree of order M is a tree with the following structural properties:
+\begin{Property}
+  The root is either a leaf or has between 2 and M children
+\end{Property}
+\begin{Property}
+  All nonleaf nodes(except the root) has between $\lceil \frac{M}{2} \rceil$ and M children
+\end{Property}
+\begin{Property}
+  All leaves are the same depth
+\end{Property}
+\end{document}

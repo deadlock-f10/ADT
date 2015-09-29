@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AvlNode	AvlTree.h	/^struct AvlNode $/;"	s
+AvlTree	AvlTree.h	/^typedef struct AvlNode *AvlTree;$/;"	t	typeref:struct:AvlNode
+DoubleRotationWithLeft	Insert.c	/^DoubleRotationWithLeft(Position K3)$/;"	f	file:
+DoubleRotationWithRight	Insert.c	/^DoubleRotationWithRight(Position K3)$/;"	f	file:
+Element	AvlTree.h	/^	ElementType Element;$/;"	m	struct:AvlNode
+ElementType	AvlTree.h	/^typedef int ElementType;$/;"	t
+Find	Finds.c	/^Find(ElementType X,AvlTree T)$/;"	f
+FindMax	Finds.c	/^FindMax(AvlTree T)$/;"	f
+FindMin	Finds.c	/^FindMin(AvlTree T)$/;"	f
+Height	AvlTree.h	/^	int Height;$/;"	m	struct:AvlNode
+Height	Insert.c	/^Height(Position P)$/;"	f	file:
+Insert	Insert.c	/^AvlTree Insert(ElementType X,AvlTree T)$/;"	f
+Left	AvlTree.h	/^	AvlTree Left;$/;"	m	struct:AvlNode
+Max	Insert.c	3;"	d	file:
+Position	AvlTree.h	/^typedef struct AvlNode *Position;$/;"	t	typeref:struct:AvlNode
+Right	AvlTree.h	/^	AvlTree Right;$/;"	m	struct:AvlNode
+SingleRotationWithLeft	Insert.c	/^static Position SingleRotationWithLeft(Position K2)$/;"	f	file:
+SingleRotationWithRight	Insert.c	/^static Position SingleRotationWithRight(Position K2)$/;"	f	file:

@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Capacity	BinHeap.h	/^	int Capacity;$/;"	m	struct:HeapStruct
+DeleteMin	Delete.c	/^DeleteMin(PriorityQueue H)$/;"	f
+Destroy	Destroy.c	/^void Destroy(PriorityQueue H)$/;"	f
+ElementType	BinHeap.h	/^typedef int ElementType;                 \/\/$/;"	t
+Elements	BinHeap.h	/^	ElementType *Elements;           \/\/H->Elements[0] wasn't used$/;"	m	struct:HeapStruct
+FindMin	FindMin.c	/^ElementType FindMin(PriorityQueue H)$/;"	f
+HeapStruct	BinHeap.h	/^struct HeapStruct{$/;"	s
+Initialize	Initialization.c	/^Initialize(int MaxElements)$/;"	f
+Insert	Insert.c	/^Insert(ElementType X,PriorityQueue H)$/;"	f
+IsEmpty	Is.c	/^int IsEmpty(PriorityQueue H)$/;"	f
+IsFull	Is.c	/^int IsFull(PriorityQueue H)$/;"	f
+LeftChild	Delete.c	3;"	d	file:
+MakeEmpty	MakeEmpty.c	/^void MakeEmpty(PriorityQueue H)$/;"	f
+Parent	Insert.c	3;"	d	file:
+PriorityQueue	BinHeap.h	/^typedef struct HeapStruct *PriorityQueue;$/;"	t	typeref:struct:HeapStruct
+Size	BinHeap.h	/^	int Size;$/;"	m	struct:HeapStruct

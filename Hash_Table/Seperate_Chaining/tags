@@ -1,0 +1,23 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Element	HashSep.h	/^	ElementType Element;$/;"	m	struct:ListNode
+Find	Find.c	/^Find(ElementType Key,HashTable H)$/;"	f
+Hash	Hash.c	/^Hash(const char *Key,int Tablesize)$/;"	f
+HashTable	HashSep.h	/^typedef struct HashTb1 *HashTable;$/;"	t	typeref:struct:HashTb1
+HashTb1	HashSep.h	/^struct HashTb1$/;"	s
+InitializeTable	Initialization.c	/^HashTable InitializeTable(int TableSize)$/;"	f
+Insert	Insert.c	/^void Insert(ElementType Key , HashTable H)$/;"	f
+List	HashSep.h	/^typedef Position List;$/;"	t
+ListNode	HashSep.h	/^struct ListNode$/;"	s
+MinTableSize	HashSep.h	15;"	d
+Next	HashSep.h	/^	Position Next;$/;"	m	struct:ListNode
+NextPrime	NextPrime.c	/^int NextPrime(int X)$/;"	f
+Position	HashSep.h	/^typedef struct ListNode *Position;$/;"	t	typeref:struct:ListNode
+Rehash	Rehash.c	/^Rehash(HashTable H)$/;"	f
+TableSize	HashSep.h	/^	int TableSize;$/;"	m	struct:HashTb1
+TestPrime	NextPrime.c	/^int static TestPrime(int X)$/;"	f	file:
+TheLists	HashSep.h	/^	List *TheLists;$/;"	m	struct:HashTb1

@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Cell	HashQuad.h	/^typedef struct HashEntry Cell;$/;"	t	typeref:struct:HashEntry
+Deleted	HashQuad.h	/^enum KindOfEntry{Legitimate,Empty,Deleted};                       \/\/For more about enum .see C bible page 215$/;"	e	enum:KindOfEntry
+Element	HashQuad.h	/^	ElementType Element;$/;"	m	struct:HashEntry
+ElementType	HashQuad.h	/^typedef int ElementType;                    \/\/默认类型为int$/;"	t
+Empty	HashQuad.h	/^enum KindOfEntry{Legitimate,Empty,Deleted};                       \/\/For more about enum .see C bible page 215$/;"	e	enum:KindOfEntry
+Find	Find.c	/^Position Find(char *Key, HashTable H)$/;"	f
+Hash	Hash.c	/^Hash(const char *Key,int Tablesize)$/;"	f
+HashEntry	HashQuad.h	/^struct HashEntry$/;"	s
+HashTable	HashQuad.h	/^typedef struct HashTb1 *HashTable;$/;"	t	typeref:struct:HashTb1
+HashTb1	HashQuad.h	/^struct HashTb1 $/;"	s
+Index	HashQuad.h	/^typedef unsigned int Index;$/;"	t
+Info	HashQuad.h	/^	enum KindOfEntry Info;$/;"	m	struct:HashEntry	typeref:enum:HashEntry::KindOfEntry
+InitializeTable	Initialization.c	/^InitializeTable(int TableSize)$/;"	f
+Insert	Insert.c	/^void Insert(char *Key,ElementType Element,HashTable H)$/;"	f
+KindOfEntry	HashQuad.h	/^enum KindOfEntry{Legitimate,Empty,Deleted};                       \/\/For more about enum .see C bible page 215$/;"	g
+Legitimate	HashQuad.h	/^enum KindOfEntry{Legitimate,Empty,Deleted};                       \/\/For more about enum .see C bible page 215$/;"	e	enum:KindOfEntry
+MinTableSize	HashQuad.h	38;"	d
+Name	HashQuad.h	/^	char *Name;$/;"	m	struct:HashEntry
+NextPrime	NextPrime.c	/^int NextPrime(int X)$/;"	f
+Position	HashQuad.h	/^typedef Index Position;$/;"	t
+Rehash	Rehash.c	/^Rehash(HashTable H)$/;"	f
+TableSize	HashQuad.h	/^	int TableSize;$/;"	m	struct:HashTb1
+TestPrime	NextPrime.c	/^int static TestPrime(int X)$/;"	f	file:
+TheCells	HashQuad.h	/^	Cell *TheCells;$/;"	m	struct:HashTb1
+main	main.c	/^int main()$/;"	f

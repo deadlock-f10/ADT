@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Delete	Delete.c	/^Delete(ElementType X,List L)$/;"	f
+DeleteList	DelectList.c	/^DeleteList(List L)$/;"	f
+Element	List.h	/^	ElementType Element;$/;"	m	struct:Node
+ElementType	List.h	/^typedef char *ElementType;                         \/\/   ElementType is string$/;"	t
+Find	Find.c	/^Find(ElementType X,List L)           $/;"	f
+FindPrevious	Find.c	/^FindPrevious(ElementType X,List L)$/;"	f
+First	Other.c	/^First(List L)$/;"	f
+Header	Other.c	/^Header(List L)$/;"	f
+Insert	Insert.c	/^void Insert(ElementType X, List L,Position P)$/;"	f
+IsEmpty	Is.c	/^int IsEmpty(List L)$/;"	f
+IsLast	Is.c	/^int IsLast(Position P,List L)$/;"	f
+List	List.h	/^typedef PtrToNode List;$/;"	t
+MakeEmpty	MakeEmpty.c	/^List MakeEmpty(List L)$/;"	f
+Next	List.h	/^	Position Next;$/;"	m	struct:Node
+Node	List.h	/^struct Node{$/;"	s
+Position	List.h	/^typedef PtrToNode Position;$/;"	t
+PtrToNode	List.h	/^typedef struct Node *PtrToNode;$/;"	t	typeref:struct:Node
+Retrieve	Other.c	/^ElementType Retrieve(Position P)$/;"	f
